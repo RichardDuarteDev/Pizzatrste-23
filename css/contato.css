@@ -1,0 +1,137 @@
+.contato {
+  font-family: "Poppins", sans-serif;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  color: #000000;
+  margin-top: -120px;
+}
+
+.contato-titulo {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.contato-icons {
+  display: flex;
+  gap: 40px;
+  font-size: 60px;
+  color: #f2f3f2;
+}
+/* CORES DO ICONES  */
+.contato-icons a {
+  color: #ffffff;
+}
+
+
+.contato-cv {
+  text-decoration: none;
+  color: #040404;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: solid 0.4px #000000;
+  transition: 0.2s ease-in;
+  background-color: yellow;
+}
+
+.contato-cv:hover {
+  
+  border: solid 0.4px #000000;
+  background-color: rgba(63, 241, 9, 0.879);
+  padding: 30px;
+  font-size: 30px;
+}
+.material-symbols-outlined:hover {
+ font-size: 60px;
+  
+}
+
+
+
+
+@media (max-width: 955px) {
+  .contato {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: solid rgb(225, 236, 25);
+    
+  }
+}
+
+@media (max-width: 780px) {
+  .contato-titulo {
+    font-size: 30px;
+  }
+
+  .contato {
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    color: #f1f1f1;
+  }
+}
+
+@media (max-width: 560px) {
+  .contato-titulo {
+    text-align: center;
+  }
+  .contato {
+    padding: 100px 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  .contato-titulo {
+    font-size: 35px;
+  }
+}
+#icon1{
+  background-color: rgb(53, 193, 53);
+  border-radius:47%;
+  height: 40px;
+  width: 37px;
+  position: left 30px;
+  
+}
+h2{
+  color:white
+}
+
+#icon1:hover{
+  padding: 30px;
+  
+  
+}
+.phone-number{
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+}
+.horario-atendimento{
+  font-size: 20px;
+}
+.rodape-im2g{
+  width: 50px; /* Ajuste conforme necessário */
+  height: 50px; /* Ajuste conforme necessário */
+  transition: 0.2s ease-in;
+
+
+}
+.rodape-im2g:hover{
+  
+  width: 100px; /* Ajuste conforme necessário */
+  height: 100px;
+}
+.txt-localicao{
+  color:white
+}
